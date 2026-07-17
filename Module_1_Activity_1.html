@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBH5216 - Module 1 Activity</title>
+    <style>
+        :root {
+            --usyd-blue: #002c5f; /* University of Sydney approximate blue */
+            --light-grey: #f4f7f9;
+            --border-color: #d1dbe5;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid var(--usyd-blue);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 400px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: var(--usyd-blue);
+            font-size: 28px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+        .module-title {
+            background-color: var(--usyd-blue);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            display: inline-block;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .question-block {
+            background-color: var(--light-grey);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border-left: 5px solid var(--usyd-blue);
+        }
+
+        .question-number {
+            font-weight: bold;
+            color: var(--usyd-blue);
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .scenario {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #555;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .sub-question {
+            margin-top: 20px;
+        }
+
+        .sub-question p {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-family: inherit;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--usyd-blue);
+            box-shadow: 0 0 5px rgba(0,44,95,0.2);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 12px;
+            color: #888;
+            padding-bottom: 30px;
+        }
+
+        @media print {
+            .container { border: none; box-shadow: none; }
+            textarea { border: 1px solid #ccc; height: 150px; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <!-- REPLACE 'logo.png' with the actual filename of the image you saved -->
+        <img src="logo.png" alt="PUBH5216 Controlled Clinical Trials Logo" class="logo">
+        <h1>Course Activity Worksheet</h1>
+    </header>
+
+    <div style="text-align: center;">
+        <span class="module-title">Module 1 Activity: Trial Design</span>
+    </div>
+
+    <!-- Question 1 -->
+    <div class="question-block">
+        <span class="question-number">Question 1</span>
+        <div class="scenario">
+            You are providing advice on trial design to a clinician wishing to determine whether dietary supplementation with B vitamins, or omega 3 fatty acids, or both could prevent major cardiovascular events in patients with a history of ischaemic heart disease or stroke.
+        </div>
+
+        <div class="sub-question">
+            <p>(a) What type(s) of trial design do you think might be reasonable? What information would you seek from the clinician to better inform your recommendation regarding the optimal design?</p>
+            <textarea placeholder="Enter your answer here..."></textarea>
+        </div>
+
+        <div class="sub-question">
+            <p>(b) What methodological features could be incorporated in the trial design to avoid possible biases? Describe the role of these features and how they will be implemented in practice?</p>
+            <textarea placeholder="Enter your answer here..."></textarea>
+        </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question-block">
+        <span class="question-number">Question 2</span>
+        <div class="scenario">
+            Your help has been sought to design a trial to assess the effectiveness of a class-room based physical activity program, versus the standard class program, on physical and psychological health in young schoolchildren. The nine-month physical activity program comprises daily physical education lessons and short activity breaks, as well as physical activity ‘homework’.
+        </div>
+
+        <div class="sub-question">
+            <p>(a) What type(s) of trial design do you think might be reasonable? What information would you seek from the clinician to better inform your recommendation regarding the optimal design?</p>
+            <textarea placeholder="Enter your answer here..."></textarea>
+        </div>
+
+        <div class="sub-question">
+            <p>(b) Suggest a primary outcome for the trial. When and how could this be measured? What other information would you recommend collecting as part of trial procedures? When and how should this be collected?</p>
+            <textarea placeholder="Enter your answer here..."></textarea>
+        </div>
+
+        <div class="sub-question">
+            <p>(c) What considerations may be relevant when:</p>
+            <p style="margin-left: 20px; font-weight: normal;">i. Selecting schools for potential inclusion in the trial?</p>
+            <textarea placeholder="Enter your answer here..."></textarea>
+            <p style="margin-left: 20px; font-weight: normal; margin-top: 15px;">ii. Determining the eligibility of children to participate in the trial?</p>
+            <textarea placeholder="Enter your answer here..."></textarea>
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question-block">
+        <span class="question-number">Question 3</span>
+        <div class="scenario">
+            A number of small preliminary trials suggest that fampridine 10 mg twice daily over 12 weeks may improve motor function in people with multiple sclerosis, with a return to baseline levels of motor function being noted within 2 week after withdrawal of fampridine. You are collaborating with a multidisciplinary team to design a phase III randomised controlled trial to build on this preliminary evidence. The team have already decided that the primary outcome measure will be walking distance achieved over a 6 minute period.
+        </div>
+        <div class="sub-question">
+            <p>Discuss the trial design considerations for this specific scenario (e.g., blinding, duration, and control group):</p>
+            <textarea placeholder="Enter your answer here..."></textarea>
+        </div>
+    </div>
+
+    <footer class="no-print">
+        <p>&copy; University of Sydney | PUBH5216 Controlled Clinical Trials</p>
+        <button onclick="window.print()" style="padding: 10px 20px; cursor: pointer;">Print to PDF / Paper</button>
+    </footer>
+</div>
+
+</body>
+</html>
